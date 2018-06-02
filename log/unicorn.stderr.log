@@ -1,0 +1,57 @@
+I, [2018-06-02T18:05:48.041367 #13517]  INFO -- : Refreshing Gem list
+I, [2018-06-02T18:05:48.077225 #13517]  INFO -- : listening on addr=/home/isucon/private_isu/webapp/ruby/tmp/unicorn.sock fd=9
+I, [2018-06-02T18:05:48.077319 #13517]  INFO -- : worker=0 spawning...
+I, [2018-06-02T18:05:48.077827 #13517]  INFO -- : worker=1 spawning...
+I, [2018-06-02T18:05:48.078160 #13517]  INFO -- : worker=2 spawning...
+I, [2018-06-02T18:05:48.078680 #13520]  INFO -- : worker=0 spawned pid=13520
+I, [2018-06-02T18:05:48.078786 #13520]  INFO -- : worker=0 ready
+I, [2018-06-02T18:05:48.079197 #13517]  INFO -- : worker=3 spawning...
+I, [2018-06-02T18:05:48.079617 #13522]  INFO -- : worker=1 spawned pid=13522
+I, [2018-06-02T18:05:48.079713 #13522]  INFO -- : worker=1 ready
+I, [2018-06-02T18:05:48.080125 #13517]  INFO -- : master process ready
+I, [2018-06-02T18:05:48.080628 #13525]  INFO -- : worker=2 spawned pid=13525
+I, [2018-06-02T18:05:48.080726 #13525]  INFO -- : worker=2 ready
+I, [2018-06-02T18:05:48.081199 #13528]  INFO -- : worker=3 spawned pid=13528
+I, [2018-06-02T18:05:48.081295 #13528]  INFO -- : worker=3 ready
+I, [2018-06-02T18:08:05.536774 #13517]  INFO -- : reaped #<Process::Status: pid 13520 exit 0> worker=0
+I, [2018-06-02T18:08:05.536878 #13517]  INFO -- : reaped #<Process::Status: pid 13522 exit 0> worker=1
+I, [2018-06-02T18:08:05.536911 #13517]  INFO -- : reaped #<Process::Status: pid 13525 exit 0> worker=2
+I, [2018-06-02T18:08:05.536936 #13517]  INFO -- : reaped #<Process::Status: pid 13528 exit 0> worker=3
+I, [2018-06-02T18:08:05.536978 #13517]  INFO -- : master complete
+I, [2018-06-02T18:08:05.759002 #13598]  INFO -- : Refreshing Gem list
+I, [2018-06-02T18:08:05.793620 #13598]  INFO -- : unlinking existing socket=/home/isucon/private_isu/webapp/ruby/tmp/unicorn_config.sock
+I, [2018-06-02T18:08:05.793740 #13598]  INFO -- : listening on addr=/home/isucon/private_isu/webapp/ruby/tmp/unicorn_config.sock fd=9
+I, [2018-06-02T18:08:05.793805 #13598]  INFO -- : worker=0 spawning...
+I, [2018-06-02T18:08:05.794284 #13598]  INFO -- : worker=1 spawning...
+I, [2018-06-02T18:08:05.794619 #13598]  INFO -- : worker=2 spawning...
+I, [2018-06-02T18:08:05.795132 #13602]  INFO -- : worker=0 spawned pid=13602
+I, [2018-06-02T18:08:05.795228 #13602]  INFO -- : worker=0 ready
+I, [2018-06-02T18:08:05.795626 #13598]  INFO -- : worker=3 spawning...
+I, [2018-06-02T18:08:05.796048 #13604]  INFO -- : worker=1 spawned pid=13604
+I, [2018-06-02T18:08:05.796136 #13604]  INFO -- : worker=1 ready
+I, [2018-06-02T18:08:05.796546 #13598]  INFO -- : master process ready
+I, [2018-06-02T18:08:05.797053 #13607]  INFO -- : worker=2 spawned pid=13607
+I, [2018-06-02T18:08:05.797144 #13607]  INFO -- : worker=2 ready
+I, [2018-06-02T18:08:05.797594 #13610]  INFO -- : worker=3 spawned pid=13610
+I, [2018-06-02T18:08:05.797684 #13610]  INFO -- : worker=3 ready
+I, [2018-06-02T18:13:29.313179 #13598]  INFO -- : reaped #<Process::Status: pid 13602 exit 0> worker=0
+I, [2018-06-02T18:13:29.313270 #13598]  INFO -- : reaped #<Process::Status: pid 13604 exit 0> worker=1
+I, [2018-06-02T18:13:29.313302 #13598]  INFO -- : reaped #<Process::Status: pid 13607 exit 0> worker=2
+I, [2018-06-02T18:13:29.313327 #13598]  INFO -- : reaped #<Process::Status: pid 13610 exit 0> worker=3
+I, [2018-06-02T18:13:29.313372 #13598]  INFO -- : master complete
+I, [2018-06-02T18:13:29.535622 #13771]  INFO -- : Refreshing Gem list
+I, [2018-06-02T18:13:29.571164 #13771]  INFO -- : unlinking existing socket=/home/isucon/private_isu/webapp/ruby/tmp/unicorn_config.sock
+I, [2018-06-02T18:13:29.571298 #13771]  INFO -- : listening on addr=/home/isucon/private_isu/webapp/ruby/tmp/unicorn_config.sock fd=9
+I, [2018-06-02T18:13:29.571361 #13771]  INFO -- : worker=0 spawning...
+I, [2018-06-02T18:13:29.571896 #13771]  INFO -- : worker=1 spawning...
+I, [2018-06-02T18:13:29.572262 #13771]  INFO -- : worker=2 spawning...
+I, [2018-06-02T18:13:29.572856 #13775]  INFO -- : worker=0 spawned pid=13775
+I, [2018-06-02T18:13:29.572983 #13775]  INFO -- : worker=0 ready
+I, [2018-06-02T18:13:29.573384 #13771]  INFO -- : worker=3 spawning...
+I, [2018-06-02T18:13:29.573856 #13777]  INFO -- : worker=1 spawned pid=13777
+I, [2018-06-02T18:13:29.573969 #13777]  INFO -- : worker=1 ready
+I, [2018-06-02T18:13:29.574377 #13771]  INFO -- : master process ready
+I, [2018-06-02T18:13:29.574906 #13780]  INFO -- : worker=2 spawned pid=13780
+I, [2018-06-02T18:13:29.574996 #13780]  INFO -- : worker=2 ready
+I, [2018-06-02T18:13:29.575496 #13783]  INFO -- : worker=3 spawned pid=13783
+I, [2018-06-02T18:13:29.575582 #13783]  INFO -- : worker=3 ready
