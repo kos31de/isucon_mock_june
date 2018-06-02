@@ -2,6 +2,7 @@ require 'sinatra/base'
 require 'mysql2'
 require 'rack-flash'
 require 'shellwords'
+require "pry"
 
 module Isuconp
   class App < Sinatra::Base
@@ -127,6 +128,18 @@ module Isuconp
         end
 
         posts
+      end
+
+      def ext mime
+        if mime == 'image/jpeg'
+          'jpg'
+        elsif mime == 'image/png'
+          'png'
+        elsif mime == 'image/gif'
+          'gif'
+        else
+          raise
+        end
       end
 
       def image_url(post)
@@ -322,13 +335,22 @@ module Isuconp
 
         params['file'][:tempfile].rewind
         query = 'INSERT INTO `posts` (`user_id`, `mime`, `imgdata`, `body`) VALUES (?,?,?,?)'
-        db.prepare(query).execute(
+        result  = db.prepare(query).execute(
           me[:id],
           mime,
-          params["file"][:tempfile].read,
+          '',
           params["body"],
         )
+
         pid = db.last_id
+        # TODO: 後々削除する
+        # local作業用
+        # File.open("./image/#{pid}.#{ext(mime)}", "wb") { |f|
+        #   f.write params["file"][:tempfile].read
+        # }
+        File.open("../public/image/#{pid}.#{ext(mime)}", "wb") { |f|
+          f.write  params["file"][:tempfile].read
+        }
 
         redirect "/posts/#{pid}", 302
       else
