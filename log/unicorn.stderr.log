@@ -55,3 +55,21 @@ I, [2018-06-02T18:13:29.574906 #13780]  INFO -- : worker=2 spawned pid=13780
 I, [2018-06-02T18:13:29.574996 #13780]  INFO -- : worker=2 ready
 I, [2018-06-02T18:13:29.575496 #13783]  INFO -- : worker=3 spawned pid=13783
 I, [2018-06-02T18:13:29.575582 #13783]  INFO -- : worker=3 ready
+Errno::EACCES: Permission denied @ rb_sysopen - /home/isucon/private_isu/webapp/ruby/tmp/pids/0.4439366362367003.2053
+  /home/isucon/.local/ruby/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:175:in `initialize'
+  /home/isucon/.local/ruby/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:175:in `open'
+  /home/isucon/.local/ruby/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:175:in `clobber_pid'
+  /home/isucon/.local/ruby/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:210:in `pid='
+  /home/isucon/.local/ruby/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:127:in `start'
+  /home/isucon/.local/ruby/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/bin/unicorn:126:in `<top (required)>'
+  /home/isucon/.local/ruby/bin/unicorn:23:in `load'
+  /home/isucon/.local/ruby/bin/unicorn:23:in `<top (required)>'
+Errno::EACCES: Permission denied @ rb_sysopen - /home/isucon/private_isu/webapp/ruby/tmp/pids/0.05894878234091916.2062
+  /home/isucon/.local/ruby/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:175:in `initialize'
+  /home/isucon/.local/ruby/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:175:in `open'
+  /home/isucon/.local/ruby/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:175:in `clobber_pid'
+  /home/isucon/.local/ruby/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:210:in `pid='
+  /home/isucon/.local/ruby/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:127:in `start'
+  /home/isucon/.local/ruby/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/bin/unicorn:126:in `<top (required)>'
+  /home/isucon/.local/ruby/bin/unicorn:23:in `load'
+  /home/isucon/.local/ruby/bin/unicorn:23:in `<top (required)>'
